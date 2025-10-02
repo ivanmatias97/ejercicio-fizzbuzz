@@ -3,9 +3,9 @@ print("Fizz buzz hasta 1000","\n")
 while cuenta <=1000:
     if cuenta%3==0:
         print("Fizz")
-    if cuenta%5==0:
+    elif cuenta%5==0:
         print("Buzz")
-    if cuenta%15==0:
+    elif cuenta%15==0:
         print("FizzBuzz")
     else:
         print(cuenta)
@@ -16,9 +16,9 @@ print("\n","Fizzbuz hasta 10 ","\n")
 while cuenta_2<=10:
     if cuenta%5==0:
         print("Buzz")
-    if cuenta_2%15==0:
+    elif cuenta_2%15==0:
         print("FizzBuzz")
-    if cuenta_2%3==0:
+    elif cuenta_2%3==0:
         print("Fizz")
     else:
         print(cuenta_2)
@@ -29,9 +29,9 @@ print("\n","Fizzbuzz hasta 100","\n")
 while cuenta_3<=100:
     if cuenta_3%5==0:
         print("Buzz")
-    if cuenta_3%3==0:
+    elif cuenta_3%3==0:
         print("Fizz")
-    if cuenta_3%15==0:
+    elif cuenta_3%15==0:
         print("Fizzbuzz")
     else:
         print(cuenta_3)
