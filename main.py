@@ -21,3 +21,15 @@ while cuenta_2<=10:
     else:
         print(cuenta_2)
     cuenta_2+=1
+
+cuenta_3=1
+while cuenta_3<=100:
+    if cuenta_3%5==0:
+        print("Buzz")
+    if cuenta_3%3==0:
+        print("Fizz")
+    if cuenta_3%15==0:
+        print("Fizzbuzz")
+    else:
+        print(cuenta_3)
+    cuenta_3+=1
