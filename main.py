@@ -9,3 +9,8 @@ while cuenta <=1000:
     else:
         print(cuenta)
     cuenta+=1
+
+cuenta_2=1
+while cuenta_2<=10:
+    if cuenta%5==0:
+        print("")
