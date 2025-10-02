@@ -13,4 +13,11 @@ while cuenta <=1000:
 cuenta_2=1
 while cuenta_2<=10:
     if cuenta%5==0:
-        print("")
+        print("Buzz")
+    if cuenta_2%15==0:
+        print("FizzBuzz")
+    if cuenta_2%3==0:
+        print("Fizz")
+    else:
+        print(cuenta_2)
+    cuenta_2+=1
