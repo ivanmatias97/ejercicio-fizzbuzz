@@ -1,4 +1,5 @@
 cuenta=1
+print("Fizz buzz hasta 1000","\n")
 while cuenta <=1000:
     if cuenta%3==0:
         print("Fizz")
@@ -11,6 +12,7 @@ while cuenta <=1000:
     cuenta+=1
 
 cuenta_2=1
+print("\n","Fizzbuz hasta 10 ","\n")
 while cuenta_2<=10:
     if cuenta%5==0:
         print("Buzz")
@@ -23,6 +25,7 @@ while cuenta_2<=10:
     cuenta_2+=1
 
 cuenta_3=1
+print("\n","Fizzbuzz hasta 100","\n")
 while cuenta_3<=100:
     if cuenta_3%5==0:
         print("Buzz")
